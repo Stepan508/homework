@@ -1,0 +1,29 @@
+caption {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: none;
+}
+th {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+td {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+.weekend {
+  color: red;
+}
