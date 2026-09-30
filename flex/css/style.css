@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #8f8c8c;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-logo {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+.list-content {
+  display: flex;
+  gap: 25px;
+}
+
+.phone {
+  text-decoration: none;
+  color: black;
+}
